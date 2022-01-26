@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>API Client</title>
+    <script src="script.js" async>
+    </script>
+    
+</head>
+
+<body>
+    <div class="form">
+        Name: <input type="text" id="name_input">
+        HP: <input type="number" id="hp_input">
+        Mana: <input type="number" id="mana_input">
+        Description: <input type="text" id="desc_input">
+        Rareté: <input type="text" id="rarity_input">
+        Image: <input type="text" id="img_input">
+        <button onclick="send_card()">Ajouter</button>
+    </div>
+    <div class='global'>
+        <span id="error"></span>
+        <div id="content"></div>
+    </div>
+</body>
+
+</html>
